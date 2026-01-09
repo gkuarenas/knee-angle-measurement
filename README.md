@@ -17,3 +17,10 @@ It also opens a **second camera feed** in a separate window for monitoring/recor
 
 ## Sample image
 ![kneeangle](https://github.com/user-attachments/assets/9afe6912-b7c8-4453-84dd-6e93d005b9bc)
+
+## Improvements to make
+- Add FPS display and performance logging
+- Smooth the knee angle output (moving average / low-pass filter)
+- Add calibration for more consistent measurement across camera placements
+- Export angle values to CSV for analysis
+- Add support for both legs and multiple joints (hip, ankle angles)
